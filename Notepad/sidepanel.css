@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 4px 4px;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    cursor: default;
+    overflow: hidden;
+
+    height: 99vh;
+}
+
+.copy_txt_box_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+
+    height: 10%;
+}
+
+#copy_txt {
+    height: 100%;
+}
+
+
+.paste_copy_btn_box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+#paste_btn {
+    margin-right: 2px;
+}
+
+#copy_btn {
+    margin-left: 2px;
+}
+
+.hr {
+    margin: 4px 2px;
+}
+
+.txt_box_wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+
+    height: 90%;
+}
+
+#txt {
+    height: 100%;
+}
+
+.btn_box {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 4px;
+}
+
+#A- {}
+
+#A {}
+
+#A+ {}
+
+#clear_all {
+    grid-column: span 2 / span 2;
+}
+
+.tx {
+    margin-bottom: 4px;
+    padding: 4px 4px;
+
+    resize: none;
+    background: #f8f9ff;
+    outline: none;
+    border: none;
+}
+
+.tx:focus,
+.tx:active {
+    outline: none;
+    border: none;
+}
+
+
+.btn {
+    padding: 4px 0px;
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    background: #e6e9f3;
+    transition: filter .5s, border .5s;
+    border: 1px solid transparent;
+}
+
+.btn:hover,
+.btn:active,
+.btn:focus-within {
+    filter: brightness(1.2);
+    border: 1px solid black;
+}

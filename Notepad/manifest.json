@@ -1,0 +1,36 @@
+{
+    "name": "Notepad",
+    "description": "Notepad to store text.",
+    "version": "0.0.1",
+    "manifest_version": 3,
+    "icons": {
+        "16": "icon.png",
+        "32": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "action": {
+        "default_title": "Click to open Notepad.",
+        "default_icon": {
+            "16": "icon.png",
+            "32": "icon.png",
+            "48": "icon.png",
+            "128": "icon.png"
+        }
+    },
+    "permissions": [
+        "sidePanel",
+        "storage",
+        "clipboardRead",
+        "clipboardWrite"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "host_permissions": [
+        "<all_urls>"
+    ],
+    "side_panel": {
+        "default_path": "sidepanel.htm"
+    }
+}
