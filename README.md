@@ -4,7 +4,9 @@ A lightweight Chrome extension that adds a simple notepad sidebar to your browse
 
 ## Screenshots
 
+<kbd>
 <img src="https://github.com/surender-commits/Notepad-Chrome-Extension/blob/main/Notepad-Chrome-Extension.jpg"  width="auto" height="auto" >
+</kbd>
 
 ## Features
 
