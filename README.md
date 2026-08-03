@@ -2,6 +2,10 @@
 
 A lightweight Chrome extension that adds a simple notepad sidebar to your browser. Notes are automatically saved using local storage, allowing you to keep important text accessible across browsing sessions.
 
+## Screenshots
+
+<img src="https://github.com/surender-commits/Notepad-Chrome-Extension/blob/main/Notepad-Chrome-Extension.jpg"  width="auto" height="auto" >
+
 ## Features
 
 * 📝 Simple sidebar notepad
